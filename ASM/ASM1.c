@@ -2,7 +2,8 @@
 
 int main() {
     int luachon;
-
+do{
+    printf("---Nguyen Minh Bao ASM1-----\n");
     printf("1. Chuong trinh kiem tra so nguyen\n");
     printf("2. Chuong trinh so sanh so nguyen\n");
     printf("3. Chuong trinh tinh cho quan karaoke\n");
@@ -33,6 +34,6 @@ int main() {
         case 0: printf("Dang thoat chuong trinh...\n"); break;
         default: printf("Lua chon khong hop le!\n");
     }
-
+    } while (luachon != 0);
     return 0;
 }
